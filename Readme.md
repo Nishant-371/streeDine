@@ -28,13 +28,19 @@ Explore the power of seamless employee data management with auto-incremented IDs
 
 ### Prerequisites
 
-- Node.js installed
-- MongoDB installed and running
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/): JavaScript runtime
+- [Express](https://expressjs.com/): Web application framework for Node.js
+- [Mongoose](https://mongoosejs.com/): MongoDB object modeling tool
+- [Email Validator](https://www.npmjs.com/package/validator): Library for email validation
+- [Mongoose-sequence](https://www.npmjs.com/package/mongoose-sequence): Plugin for auto-incrementing fields in Mongoose
+- [MongoDB](https://www.mongodb.com/): NoSQL database (installed and running)
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Nishant-371/streeDine.git
    ```
