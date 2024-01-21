@@ -11,14 +11,18 @@ This project is a simple Employee Management System implemented using Node.js, E
 - [Project Structure](#project-structure)
 - [Database Configuration](#database-configuration)
 - [API Endpoints](#api-endpoints)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
-This Employee Management System allows you to perform CRUD operations on employee data, including creating, retrieving, updating, and deleting employee records.
+This Employee Management System is a robust application implemented using Node.js, Express, and MongoDB. It provides essential CRUD operations for managing employee records.
+
+Key Features:
+
+- **Auto-incrementing Employee IDs:** The system automatically assigns unique IDs to each employee, simplifying identification and record-keeping.
+
+- **Email Validation:** To ensure data integrity, the system includes email validation using the [validator](https://www.npmjs.com/package/validator) library. This helps maintain accurate and valid email addresses for each employee.
+
+Explore the power of seamless employee data management with auto-incremented IDs and robust email validation.
 
 ## Getting Started
 
