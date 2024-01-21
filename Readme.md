@@ -67,6 +67,7 @@ Before you begin, ensure you have the following installed:
 
 ## Project Structure
 
+```
 .
 ├── config
 │ └── database.js
@@ -81,6 +82,7 @@ Before you begin, ensure you have the following installed:
 │ └── employee.js
 ├── index.js
 └── .env
+```
 
 `config`: Configuration files
 `controllers`: Controller functions for handling CRUD operations
