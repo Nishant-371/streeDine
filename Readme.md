@@ -95,3 +95,21 @@ Before you begin, ensure you have the following installed:
 `index.js`: Main entry point of the application
 
 `.env`: Environment variables (not included in the repository, create your own)
+
+## Database Configuration
+
+The application uses MongoDB for data storage. Configure your database connection by creating a .env file and adding the following:
+
+````DATABASE_URL=your-mongodb-connection-url
+PORT=4000```
+````
+
+## API Endpoints
+
+`POST` /api/v1/createtodo: Create a new employee
+
+`GET` /api/v1/employees/:employeeId: Retrieve employee details
+
+`PUT` /api/v1/employees/:employeeId: Update employee details
+
+`DELETE` /api/v1/employees/:employeeId: Delete an employee
