@@ -85,8 +85,13 @@ Before you begin, ensure you have the following installed:
 ```
 
 `config`: Configuration files
+
 `controllers`: Controller functions for handling CRUD operations
-models: Mongoose schema definition for the Employee model
-routes: Express routes for API endpoints
-index.js: Main entry point of the application
-.env: Environment variables (not included in the repository, create your own)
+
+`models`: Mongoose schema definition for the Employee model
+
+`routes`: Express routes for API endpoints
+
+`index.js`: Main entry point of the application
+
+`.env`: Environment variables (not included in the repository, create your own)
