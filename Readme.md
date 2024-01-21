@@ -44,3 +44,23 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/Nishant-371/streeDine.git
    ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd employee-management-system
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Configure your MongoDB connection by creating a .env file in the root directory and adding the following:
+   ```bash
+   DATABASE_URL=your-mongodb-connection-url
+   PORT=4000
+   ```
+5. Start the server:
+
+   ```bash
+   npm start
+
+   ```
